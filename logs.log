@@ -8894,3 +8894,401 @@ OSError: [Errno 22] Invalid argument
 2021-05-24 23:21:40,728:INFO:Random Forest Regressor Imported succesfully
 2021-05-24 23:21:40,752:INFO:Starting cross validation
 2021-05-24 23:21:40,753:INFO:Cross validating with KFold(n_splits=3, random_state=None, shuffle=False), n_jobs=-1
+2021-05-24 23:36:57,646:INFO:Calculating mean and std
+2021-05-24 23:36:57,649:INFO:Creating metrics dataframe
+2021-05-24 23:36:57,660:INFO:Uploading results into container
+2021-05-24 23:36:57,661:INFO:Uploading model into container now
+2021-05-24 23:36:57,662:INFO:create_model_container: 13
+2021-05-24 23:36:57,662:INFO:master_model_container: 13
+2021-05-24 23:36:57,663:INFO:display_container: 2
+2021-05-24 23:36:57,664:INFO:RandomForestRegressor(bootstrap=True, ccp_alpha=0.0, criterion='mse',
+                      max_depth=None, max_features='auto', max_leaf_nodes=None,
+                      max_samples=None, min_impurity_decrease=0.0,
+                      min_impurity_split=None, min_samples_leaf=1,
+                      min_samples_split=2, min_weight_fraction_leaf=0.0,
+                      n_estimators=100, n_jobs=-1, oob_score=False,
+                      random_state=859, verbose=0, warm_start=False)
+2021-05-24 23:36:57,665:INFO:create_model() succesfully completed......................................
+2021-05-24 23:36:57,860:INFO:SubProcess create_model() end ==================================
+2021-05-24 23:36:57,861:INFO:Creating metrics dataframe
+2021-05-24 23:36:57,917:INFO:Initializing Extra Trees Regressor
+2021-05-24 23:36:57,918:INFO:Total runtime is 17.697402067979176 minutes
+2021-05-24 23:36:57,934:INFO:SubProcess create_model() called ==================================
+2021-05-24 23:36:57,935:INFO:Initializing create_model()
+2021-05-24 23:36:57,935:INFO:create_model(estimator=et, fold=KFold(n_splits=3, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, verbose=False, system=False, metrics=None, display=<pycaret.internal.Display.Display object at 0x0000016742422640>, kwargs={})
+2021-05-24 23:36:57,936:INFO:Checking exceptions
+2021-05-24 23:36:57,936:INFO:Importing libraries
+2021-05-24 23:36:57,936:INFO:Copying training dataset
+2021-05-24 23:36:58,003:INFO:Defining folds
+2021-05-24 23:36:58,003:INFO:Declaring metric variables
+2021-05-24 23:36:58,020:INFO:Importing untrained model
+2021-05-24 23:36:58,043:INFO:Extra Trees Regressor Imported succesfully
+2021-05-24 23:36:58,089:INFO:Starting cross validation
+2021-05-24 23:36:58,091:INFO:Cross validating with KFold(n_splits=3, random_state=None, shuffle=False), n_jobs=-1
+2021-05-24 23:58:58,625:INFO:Calculating mean and std
+2021-05-24 23:58:58,628:INFO:Creating metrics dataframe
+2021-05-24 23:58:58,637:INFO:Uploading results into container
+2021-05-24 23:58:58,638:INFO:Uploading model into container now
+2021-05-24 23:58:58,639:INFO:create_model_container: 14
+2021-05-24 23:58:58,640:INFO:master_model_container: 14
+2021-05-24 23:58:58,640:INFO:display_container: 2
+2021-05-24 23:58:58,642:INFO:ExtraTreesRegressor(bootstrap=False, ccp_alpha=0.0, criterion='mse',
+                    max_depth=None, max_features='auto', max_leaf_nodes=None,
+                    max_samples=None, min_impurity_decrease=0.0,
+                    min_impurity_split=None, min_samples_leaf=1,
+                    min_samples_split=2, min_weight_fraction_leaf=0.0,
+                    n_estimators=100, n_jobs=-1, oob_score=False,
+                    random_state=859, verbose=0, warm_start=False)
+2021-05-24 23:58:58,643:INFO:create_model() succesfully completed......................................
+2021-05-24 23:58:58,782:INFO:SubProcess create_model() end ==================================
+2021-05-24 23:58:58,783:INFO:Creating metrics dataframe
+2021-05-24 23:58:58,847:INFO:Initializing AdaBoost Regressor
+2021-05-24 23:58:58,848:INFO:Total runtime is 39.712893867492674 minutes
+2021-05-24 23:58:58,863:INFO:SubProcess create_model() called ==================================
+2021-05-24 23:58:58,864:INFO:Initializing create_model()
+2021-05-24 23:58:58,865:INFO:create_model(estimator=ada, fold=KFold(n_splits=3, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, verbose=False, system=False, metrics=None, display=<pycaret.internal.Display.Display object at 0x0000016742422640>, kwargs={})
+2021-05-24 23:58:58,865:INFO:Checking exceptions
+2021-05-24 23:58:58,866:INFO:Importing libraries
+2021-05-24 23:58:58,866:INFO:Copying training dataset
+2021-05-24 23:58:58,928:INFO:Defining folds
+2021-05-24 23:58:58,928:INFO:Declaring metric variables
+2021-05-24 23:58:58,952:INFO:Importing untrained model
+2021-05-24 23:58:58,970:INFO:AdaBoost Regressor Imported succesfully
+2021-05-24 23:58:59,009:INFO:Starting cross validation
+2021-05-24 23:58:59,011:INFO:Cross validating with KFold(n_splits=3, random_state=None, shuffle=False), n_jobs=-1
+2021-05-25 00:00:44,676:INFO:Calculating mean and std
+2021-05-25 00:00:44,678:INFO:Creating metrics dataframe
+2021-05-25 00:00:44,684:INFO:Uploading results into container
+2021-05-25 00:00:44,685:INFO:Uploading model into container now
+2021-05-25 00:00:44,685:INFO:create_model_container: 15
+2021-05-25 00:00:44,685:INFO:master_model_container: 15
+2021-05-25 00:00:44,686:INFO:display_container: 2
+2021-05-25 00:00:44,686:INFO:AdaBoostRegressor(base_estimator=None, learning_rate=1.0, loss='linear',
+                  n_estimators=50, random_state=859)
+2021-05-25 00:00:44,687:INFO:create_model() succesfully completed......................................
+2021-05-25 00:00:44,780:INFO:SubProcess create_model() end ==================================
+2021-05-25 00:00:44,780:INFO:Creating metrics dataframe
+2021-05-25 00:00:44,821:INFO:Initializing Gradient Boosting Regressor
+2021-05-25 00:00:44,822:INFO:Total runtime is 41.479122026761374 minutes
+2021-05-25 00:00:44,834:INFO:SubProcess create_model() called ==================================
+2021-05-25 00:00:44,834:INFO:Initializing create_model()
+2021-05-25 00:00:44,835:INFO:create_model(estimator=gbr, fold=KFold(n_splits=3, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, verbose=False, system=False, metrics=None, display=<pycaret.internal.Display.Display object at 0x0000016742422640>, kwargs={})
+2021-05-25 00:00:44,835:INFO:Checking exceptions
+2021-05-25 00:00:44,835:INFO:Importing libraries
+2021-05-25 00:00:44,835:INFO:Copying training dataset
+2021-05-25 00:00:44,886:INFO:Defining folds
+2021-05-25 00:00:44,886:INFO:Declaring metric variables
+2021-05-25 00:00:44,898:INFO:Importing untrained model
+2021-05-25 00:00:44,910:INFO:Gradient Boosting Regressor Imported succesfully
+2021-05-25 00:00:44,938:INFO:Starting cross validation
+2021-05-25 00:00:44,939:INFO:Cross validating with KFold(n_splits=3, random_state=None, shuffle=False), n_jobs=-1
+2021-05-25 00:01:50,887:INFO:Calculating mean and std
+2021-05-25 00:01:50,889:INFO:Creating metrics dataframe
+2021-05-25 00:01:50,897:INFO:Uploading results into container
+2021-05-25 00:01:50,897:INFO:Uploading model into container now
+2021-05-25 00:01:50,897:INFO:create_model_container: 16
+2021-05-25 00:01:50,897:INFO:master_model_container: 16
+2021-05-25 00:01:50,897:INFO:display_container: 2
+2021-05-25 00:01:50,898:INFO:GradientBoostingRegressor(alpha=0.9, ccp_alpha=0.0, criterion='friedman_mse',
+                          init=None, learning_rate=0.1, loss='ls', max_depth=3,
+                          max_features=None, max_leaf_nodes=None,
+                          min_impurity_decrease=0.0, min_impurity_split=None,
+                          min_samples_leaf=1, min_samples_split=2,
+                          min_weight_fraction_leaf=0.0, n_estimators=100,
+                          n_iter_no_change=None, presort='deprecated',
+                          random_state=859, subsample=1.0, tol=0.0001,
+                          validation_fraction=0.1, verbose=0, warm_start=False)
+2021-05-25 00:01:50,898:INFO:create_model() succesfully completed......................................
+2021-05-25 00:01:50,987:INFO:SubProcess create_model() end ==================================
+2021-05-25 00:01:50,987:INFO:Creating metrics dataframe
+2021-05-25 00:01:51,073:INFO:Initializing Extreme Gradient Boosting
+2021-05-25 00:01:51,073:INFO:Total runtime is 42.583304047584534 minutes
+2021-05-25 00:01:51,085:INFO:SubProcess create_model() called ==================================
+2021-05-25 00:01:51,085:INFO:Initializing create_model()
+2021-05-25 00:01:51,085:INFO:create_model(estimator=xgboost, fold=KFold(n_splits=3, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, verbose=False, system=False, metrics=None, display=<pycaret.internal.Display.Display object at 0x0000016742422640>, kwargs={})
+2021-05-25 00:01:51,086:INFO:Checking exceptions
+2021-05-25 00:01:51,086:INFO:Importing libraries
+2021-05-25 00:01:51,086:INFO:Copying training dataset
+2021-05-25 00:01:51,143:INFO:Defining folds
+2021-05-25 00:01:51,143:INFO:Declaring metric variables
+2021-05-25 00:01:51,155:INFO:Importing untrained model
+2021-05-25 00:01:51,168:INFO:Extreme Gradient Boosting Imported succesfully
+2021-05-25 00:01:51,197:INFO:Starting cross validation
+2021-05-25 00:01:51,198:WARNING:create_model() for xgboost raised an exception or returned all 0.0, trying without fit_kwargs:
+2021-05-25 00:01:51,215:WARNING:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pycaret\internal\pipeline.py", line 223, in add_estimator_to_pipeline
+    assert hasattr(pipeline._final_estimator, "predict")
+AssertionError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pycaret\internal\tabular.py", line 2163, in compare_models
+    model, model_fit_time = create_model_supervised(
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pycaret\internal\tabular.py", line 3107, in create_model_supervised
+    with estimator_pipeline(_internal_pipeline, model) as pipeline_with_model:
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pycaret\internal\pipeline.py", line 205, in __enter__
+    add_estimator_to_pipeline(self.pipeline, self.estimator)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pycaret\internal\pipeline.py", line 228, in add_estimator_to_pipeline
+    pipeline._carry_over_final_estimator_fit_vars()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pycaret\internal\pipeline.py", line 57, in _carry_over_final_estimator_fit_vars
+    for k, v in get_all_object_vars_and_properties(
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pycaret\internal\utils.py", line 571, in get_all_object_vars_and_properties
+    return {
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pycaret\internal\utils.py", line 574, in <dictcomp>
+    if k[:2] != "__" and type(getattr(object, k, "")).__name__ != "method"
+  File "C:\ProgramData\Anaconda3\lib\site-packages\xgboost\sklearn.py", line 687, in feature_importances_
+    b = self.get_booster()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\xgboost\sklearn.py", line 261, in get_booster
+    raise XGBoostError('need to call fit or load_model beforehand')
+xgboost.core.XGBoostError: need to call fit or load_model beforehand
+
+2021-05-25 00:01:51,216:INFO:Initializing create_model()
+2021-05-25 00:01:51,216:INFO:create_model(estimator=xgboost, fold=KFold(n_splits=3, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs=None, groups=None, refit=False, verbose=False, system=False, metrics=None, display=<pycaret.internal.Display.Display object at 0x0000016742422640>, kwargs={})
+2021-05-25 00:01:51,216:INFO:Checking exceptions
+2021-05-25 00:01:51,216:INFO:Importing libraries
+2021-05-25 00:01:51,216:INFO:Copying training dataset
+2021-05-25 00:01:51,253:INFO:Defining folds
+2021-05-25 00:01:51,253:INFO:Declaring metric variables
+2021-05-25 00:01:51,262:INFO:Importing untrained model
+2021-05-25 00:01:51,274:INFO:Extreme Gradient Boosting Imported succesfully
+2021-05-25 00:01:51,300:INFO:Starting cross validation
+2021-05-25 00:01:51,302:ERROR:create_model() for xgboost raised an exception:
+2021-05-25 00:01:51,303:ERROR:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pycaret\internal\pipeline.py", line 223, in add_estimator_to_pipeline
+    assert hasattr(pipeline._final_estimator, "predict")
+AssertionError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pycaret\internal\tabular.py", line 2163, in compare_models
+    model, model_fit_time = create_model_supervised(
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pycaret\internal\tabular.py", line 3107, in create_model_supervised
+    with estimator_pipeline(_internal_pipeline, model) as pipeline_with_model:
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pycaret\internal\pipeline.py", line 205, in __enter__
+    add_estimator_to_pipeline(self.pipeline, self.estimator)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pycaret\internal\pipeline.py", line 228, in add_estimator_to_pipeline
+    pipeline._carry_over_final_estimator_fit_vars()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pycaret\internal\pipeline.py", line 57, in _carry_over_final_estimator_fit_vars
+    for k, v in get_all_object_vars_and_properties(
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pycaret\internal\utils.py", line 571, in get_all_object_vars_and_properties
+    return {
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pycaret\internal\utils.py", line 574, in <dictcomp>
+    if k[:2] != "__" and type(getattr(object, k, "")).__name__ != "method"
+  File "C:\ProgramData\Anaconda3\lib\site-packages\xgboost\sklearn.py", line 687, in feature_importances_
+    b = self.get_booster()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\xgboost\sklearn.py", line 261, in get_booster
+    raise XGBoostError('need to call fit or load_model beforehand')
+xgboost.core.XGBoostError: need to call fit or load_model beforehand
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pycaret\internal\pipeline.py", line 223, in add_estimator_to_pipeline
+    assert hasattr(pipeline._final_estimator, "predict")
+AssertionError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pycaret\internal\tabular.py", line 2183, in compare_models
+    model, model_fit_time = create_model_supervised(
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pycaret\internal\tabular.py", line 3107, in create_model_supervised
+    with estimator_pipeline(_internal_pipeline, model) as pipeline_with_model:
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pycaret\internal\pipeline.py", line 205, in __enter__
+    add_estimator_to_pipeline(self.pipeline, self.estimator)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pycaret\internal\pipeline.py", line 228, in add_estimator_to_pipeline
+    pipeline._carry_over_final_estimator_fit_vars()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pycaret\internal\pipeline.py", line 57, in _carry_over_final_estimator_fit_vars
+    for k, v in get_all_object_vars_and_properties(
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pycaret\internal\utils.py", line 571, in get_all_object_vars_and_properties
+    return {
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pycaret\internal\utils.py", line 574, in <dictcomp>
+    if k[:2] != "__" and type(getattr(object, k, "")).__name__ != "method"
+  File "C:\ProgramData\Anaconda3\lib\site-packages\xgboost\sklearn.py", line 687, in feature_importances_
+    b = self.get_booster()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\xgboost\sklearn.py", line 261, in get_booster
+    raise XGBoostError('need to call fit or load_model beforehand')
+xgboost.core.XGBoostError: need to call fit or load_model beforehand
+
+2021-05-25 00:01:51,327:INFO:Initializing Light Gradient Boosting Machine
+2021-05-25 00:01:51,328:INFO:Total runtime is 42.58756494522095 minutes
+2021-05-25 00:01:51,340:INFO:SubProcess create_model() called ==================================
+2021-05-25 00:01:51,341:INFO:Initializing create_model()
+2021-05-25 00:01:51,342:INFO:create_model(estimator=lightgbm, fold=KFold(n_splits=3, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, verbose=False, system=False, metrics=None, display=<pycaret.internal.Display.Display object at 0x0000016742422640>, kwargs={})
+2021-05-25 00:01:51,342:INFO:Checking exceptions
+2021-05-25 00:01:51,342:INFO:Importing libraries
+2021-05-25 00:01:51,342:INFO:Copying training dataset
+2021-05-25 00:01:51,392:INFO:Defining folds
+2021-05-25 00:01:51,393:INFO:Declaring metric variables
+2021-05-25 00:01:51,407:INFO:Importing untrained model
+2021-05-25 00:01:51,423:INFO:Light Gradient Boosting Machine Imported succesfully
+2021-05-25 00:01:51,457:INFO:Starting cross validation
+2021-05-25 00:01:51,459:INFO:Cross validating with KFold(n_splits=3, random_state=None, shuffle=False), n_jobs=-1
+2021-05-25 00:01:58,733:INFO:Calculating mean and std
+2021-05-25 00:01:58,734:INFO:Creating metrics dataframe
+2021-05-25 00:01:58,738:INFO:Uploading results into container
+2021-05-25 00:01:58,738:INFO:Uploading model into container now
+2021-05-25 00:01:58,739:INFO:create_model_container: 17
+2021-05-25 00:01:58,739:INFO:master_model_container: 17
+2021-05-25 00:01:58,739:INFO:display_container: 2
+2021-05-25 00:01:58,739:INFO:LGBMRegressor(boosting_type='gbdt', class_weight=None, colsample_bytree=1.0,
+              importance_type='split', learning_rate=0.1, max_depth=-1,
+              min_child_samples=20, min_child_weight=0.001, min_split_gain=0.0,
+              n_estimators=100, n_jobs=-1, num_leaves=31, objective=None,
+              random_state=859, reg_alpha=0.0, reg_lambda=0.0, silent=True,
+              subsample=1.0, subsample_for_bin=200000, subsample_freq=0)
+2021-05-25 00:01:58,739:INFO:create_model() succesfully completed......................................
+2021-05-25 00:01:58,818:INFO:SubProcess create_model() end ==================================
+2021-05-25 00:01:58,819:INFO:Creating metrics dataframe
+2021-05-25 00:01:58,913:INFO:Initializing create_model()
+2021-05-25 00:01:58,914:INFO:create_model(estimator=RandomForestRegressor(bootstrap=True, ccp_alpha=0.0, criterion='mse',
+                      max_depth=None, max_features='auto', max_leaf_nodes=None,
+                      max_samples=None, min_impurity_decrease=0.0,
+                      min_impurity_split=None, min_samples_leaf=1,
+                      min_samples_split=2, min_weight_fraction_leaf=0.0,
+                      n_estimators=100, n_jobs=-1, oob_score=False,
+                      random_state=859, verbose=0, warm_start=False), fold=KFold(n_splits=3, random_state=None, shuffle=False), round=4, cross_validation=False, predict=False, fit_kwargs={}, groups=None, refit=True, verbose=False, system=False, metrics=None, display=None, kwargs={})
+2021-05-25 00:01:58,914:INFO:Checking exceptions
+2021-05-25 00:01:58,914:INFO:Importing libraries
+2021-05-25 00:01:58,914:INFO:Copying training dataset
+2021-05-25 00:01:58,978:INFO:Defining folds
+2021-05-25 00:01:58,979:INFO:Declaring metric variables
+2021-05-25 00:01:58,979:INFO:Importing untrained model
+2021-05-25 00:01:58,979:INFO:Declaring custom model
+2021-05-25 00:01:58,979:INFO:Random Forest Regressor Imported succesfully
+2021-05-25 00:01:58,980:INFO:Cross validation set to False
+2021-05-25 00:01:58,980:INFO:Fitting Model
+2021-05-25 00:11:21,399:INFO:RandomForestRegressor(bootstrap=True, ccp_alpha=0.0, criterion='mse',
+                      max_depth=None, max_features='auto', max_leaf_nodes=None,
+                      max_samples=None, min_impurity_decrease=0.0,
+                      min_impurity_split=None, min_samples_leaf=1,
+                      min_samples_split=2, min_weight_fraction_leaf=0.0,
+                      n_estimators=100, n_jobs=-1, oob_score=False,
+                      random_state=859, verbose=0, warm_start=False)
+2021-05-25 00:11:21,401:INFO:create_models() succesfully completed......................................
+2021-05-25 00:11:21,719:INFO:create_model_container: 17
+2021-05-25 00:11:21,720:INFO:master_model_container: 17
+2021-05-25 00:11:21,720:INFO:display_container: 2
+2021-05-25 00:11:21,721:INFO:RandomForestRegressor(bootstrap=True, ccp_alpha=0.0, criterion='mse',
+                      max_depth=None, max_features='auto', max_leaf_nodes=None,
+                      max_samples=None, min_impurity_decrease=0.0,
+                      min_impurity_split=None, min_samples_leaf=1,
+                      min_samples_split=2, min_weight_fraction_leaf=0.0,
+                      n_estimators=100, n_jobs=-1, oob_score=False,
+                      random_state=859, verbose=0, warm_start=False)
+2021-05-25 00:11:21,721:INFO:compare_models() succesfully completed......................................
+2021-05-25 00:13:13,785:INFO:Initializing create_model()
+2021-05-25 00:13:13,786:INFO:create_model(estimator=rf, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs=None, groups=None, refit=True, verbose=True, system=True, metrics=None, display=None, kwargs={})
+2021-05-25 00:13:13,786:INFO:Checking exceptions
+2021-05-25 00:13:13,787:INFO:Preparing display monitor
+2021-05-25 00:13:13,820:INFO:Importing libraries
+2021-05-25 00:13:13,821:INFO:Copying training dataset
+2021-05-25 00:13:13,885:INFO:Defining folds
+2021-05-25 00:13:13,887:INFO:Declaring metric variables
+2021-05-25 00:13:13,902:INFO:Importing untrained model
+2021-05-25 00:13:13,924:INFO:Random Forest Regressor Imported succesfully
+2021-05-25 00:13:13,966:INFO:Starting cross validation
+2021-05-25 00:13:13,967:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2021-05-25 01:18:13,941:INFO:Initializing create_model()
+2021-05-25 01:18:13,944:INFO:create_model(estimator=rf, fold=3, round=4, cross_validation=True, predict=True, fit_kwargs=None, groups=None, refit=True, verbose=True, system=True, metrics=None, display=None, kwargs={})
+2021-05-25 01:18:13,945:INFO:Checking exceptions
+2021-05-25 01:18:13,949:INFO:Preparing display monitor
+2021-05-25 01:18:14,052:INFO:Importing libraries
+2021-05-25 01:18:14,053:INFO:Copying training dataset
+2021-05-25 01:18:14,485:INFO:Defining folds
+2021-05-25 01:18:14,487:INFO:Declaring metric variables
+2021-05-25 01:18:14,501:INFO:Importing untrained model
+2021-05-25 01:18:14,522:INFO:Random Forest Regressor Imported succesfully
+2021-05-25 01:18:14,563:INFO:Starting cross validation
+2021-05-25 01:18:14,570:INFO:Cross validating with KFold(n_splits=3, random_state=None, shuffle=False), n_jobs=-1
+2021-05-25 01:33:42,620:INFO:Calculating mean and std
+2021-05-25 01:33:42,631:INFO:Creating metrics dataframe
+2021-05-25 01:33:42,668:INFO:Finalizing model
+2021-05-25 01:42:02,643:INFO:Uploading results into container
+2021-05-25 01:42:02,644:INFO:Uploading model into container now
+2021-05-25 01:42:02,716:INFO:create_model_container: 18
+2021-05-25 01:42:02,718:INFO:master_model_container: 18
+2021-05-25 01:42:02,718:INFO:display_container: 3
+2021-05-25 01:42:02,719:INFO:RandomForestRegressor(bootstrap=True, ccp_alpha=0.0, criterion='mse',
+                      max_depth=None, max_features='auto', max_leaf_nodes=None,
+                      max_samples=None, min_impurity_decrease=0.0,
+                      min_impurity_split=None, min_samples_leaf=1,
+                      min_samples_split=2, min_weight_fraction_leaf=0.0,
+                      n_estimators=100, n_jobs=-1, oob_score=False,
+                      random_state=859, verbose=0, warm_start=False)
+2021-05-25 01:42:02,720:INFO:create_model() succesfully completed......................................
+2021-05-25 01:42:17,042:INFO:Initializing plot_model()
+2021-05-25 01:42:17,042:INFO:plot_model(plot=feature, fold=None, use_train_data=False, verbose=True, is_in_evaluate=False, display=None, display_format=None, estimator=RandomForestRegressor(bootstrap=True, ccp_alpha=0.0, criterion='mse',
+                      max_depth=None, max_features='auto', max_leaf_nodes=None,
+                      max_samples=None, min_impurity_decrease=0.0,
+                      min_impurity_split=None, min_samples_leaf=1,
+                      min_samples_split=2, min_weight_fraction_leaf=0.0,
+                      n_estimators=100, n_jobs=-1, oob_score=False,
+                      random_state=859, verbose=0, warm_start=False), feature_name=None, fit_kwargs=None, groups=None, label=False, save=False, scale=1, system=True)
+2021-05-25 01:42:17,043:INFO:Checking exceptions
+2021-05-25 01:42:17,129:INFO:Preparing display monitor
+2021-05-25 01:42:17,145:INFO:Preloading libraries
+2021-05-25 01:42:17,969:INFO:Copying training dataset
+2021-05-25 01:42:18,027:INFO:Copying test dataset
+2021-05-25 01:42:18,122:INFO:Plot type: feature
+2021-05-25 01:42:19,526:WARNING:No coef_ found. Trying feature_importances_
+2021-05-25 01:42:19,949:INFO:Visual Rendered Successfully
+2021-05-25 01:42:20,058:INFO:plot_model() succesfully completed......................................
+2021-05-25 01:43:40,455:INFO:Initializing plot_model()
+2021-05-25 01:43:40,456:INFO:plot_model(plot=feature, fold=None, use_train_data=False, verbose=True, is_in_evaluate=False, display=None, display_format=None, estimator=RandomForestRegressor(bootstrap=True, ccp_alpha=0.0, criterion='mse',
+                      max_depth=None, max_features='auto', max_leaf_nodes=None,
+                      max_samples=None, min_impurity_decrease=0.0,
+                      min_impurity_split=None, min_samples_leaf=1,
+                      min_samples_split=2, min_weight_fraction_leaf=0.0,
+                      n_estimators=100, n_jobs=-1, oob_score=False,
+                      random_state=859, verbose=0, warm_start=False), feature_name=None, fit_kwargs=None, groups=None, label=False, save=False, scale=1, system=True)
+2021-05-25 01:43:40,456:INFO:Checking exceptions
+2021-05-25 01:43:40,545:INFO:Preparing display monitor
+2021-05-25 01:43:40,564:INFO:Preloading libraries
+2021-05-25 01:43:41,387:INFO:Copying training dataset
+2021-05-25 01:43:41,451:INFO:Copying test dataset
+2021-05-25 01:43:41,472:INFO:Plot type: feature
+2021-05-25 01:43:41,659:WARNING:No coef_ found. Trying feature_importances_
+2021-05-25 01:43:42,259:INFO:Visual Rendered Successfully
+2021-05-25 01:43:42,395:INFO:plot_model() succesfully completed......................................
+2021-05-25 01:44:48,239:INFO:Initializing plot_model()
+2021-05-25 01:44:48,240:INFO:plot_model(plot=feature, fold=None, use_train_data=False, verbose=True, is_in_evaluate=False, display=None, display_format=None, estimator=RandomForestRegressor(bootstrap=True, ccp_alpha=0.0, criterion='mse',
+                      max_depth=None, max_features='auto', max_leaf_nodes=None,
+                      max_samples=None, min_impurity_decrease=0.0,
+                      min_impurity_split=None, min_samples_leaf=1,
+                      min_samples_split=2, min_weight_fraction_leaf=0.0,
+                      n_estimators=100, n_jobs=-1, oob_score=False,
+                      random_state=859, verbose=0, warm_start=False), feature_name=None, fit_kwargs=None, groups=None, label=False, save=False, scale=1, system=True)
+2021-05-25 01:44:48,241:INFO:Checking exceptions
+2021-05-25 01:44:48,334:INFO:Preparing display monitor
+2021-05-25 01:44:48,357:INFO:Preloading libraries
+2021-05-25 01:44:49,195:INFO:Copying training dataset
+2021-05-25 01:44:49,260:INFO:Copying test dataset
+2021-05-25 01:44:49,276:INFO:Plot type: feature
+2021-05-25 01:44:49,457:WARNING:No coef_ found. Trying feature_importances_
+2021-05-25 01:44:49,880:INFO:Visual Rendered Successfully
+2021-05-25 01:44:50,007:INFO:plot_model() succesfully completed......................................
+2021-05-25 01:45:00,751:INFO:Initializing interpret_model()
+2021-05-25 01:45:00,752:INFO:interpret_model(estimator=RandomForestRegressor(bootstrap=True, ccp_alpha=0.0, criterion='mse',
+                      max_depth=None, max_features='auto', max_leaf_nodes=None,
+                      max_samples=None, min_impurity_decrease=0.0,
+                      min_impurity_split=None, min_samples_leaf=1,
+                      min_samples_split=2, min_weight_fraction_leaf=0.0,
+                      n_estimators=100, n_jobs=-1, oob_score=False,
+                      random_state=859, verbose=0, warm_start=False), use_train_data=False, feature=None, kwargs={}, observation=None, plot=summary, save=False)
+2021-05-25 01:45:00,752:INFO:Checking exceptions
+2021-05-25 01:45:00,756:ERROR:shap library not found. pip install shap to use interpret_model function.
+2021-05-25 01:46:02,333:INFO:Initializing interpret_model()
+2021-05-25 01:46:02,335:INFO:interpret_model(estimator=RandomForestRegressor(bootstrap=True, ccp_alpha=0.0, criterion='mse',
+                      max_depth=None, max_features='auto', max_leaf_nodes=None,
+                      max_samples=None, min_impurity_decrease=0.0,
+                      min_impurity_split=None, min_samples_leaf=1,
+                      min_samples_split=2, min_weight_fraction_leaf=0.0,
+                      n_estimators=100, n_jobs=-1, oob_score=False,
+                      random_state=859, verbose=0, warm_start=False), use_train_data=False, feature=None, kwargs={}, observation=None, plot=summary, save=False)
+2021-05-25 01:46:02,335:INFO:Checking exceptions
+2021-05-25 01:46:02,751:INFO:plot type: summary
+2021-05-25 01:46:02,752:INFO:Creating TreeExplainer
+2021-05-25 01:46:03,959:INFO:Compiling shap values
